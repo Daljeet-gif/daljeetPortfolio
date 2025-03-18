@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import project1 from "../../public/project1.png";
+import React from "react";
+
 import project2 from "../../public/project6.png";
 import project3 from "../../public/project5.png";
-import { animate, motion } from "framer-motion";
-import * as Tooltip from "@radix-ui/react-tooltip";
-import { BsArrowUpRight, BsGithub } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import project4 from "../../public/project4.png";
+import {  motion } from "framer-motion";
+
 const Projects = () => {
   const projects = [
     {
@@ -17,12 +16,13 @@ const Projects = () => {
       stack: [
         { name: "React" },
         { name: "Nodejs" },
-        { name: "Reduxjs" },
+        { name: "Redux" },
         { name: "Tailwindcss" },
+        { name: "Redux Toolkit" },
       ],
       image: project3,
-      live: "https://ecommerce-fjw5.onrender.com/",
-      github: "https://github.com/Daljeet-gif/ecommerce",
+      live: "https://rabbit-925.vercel.app/",
+      github: "https://github.com/Daljeet-gif/rabbit",
     },
     {
       num: "02",
@@ -33,13 +33,30 @@ const Projects = () => {
       stack: [
         { name: "React" },
         { name: "Nodejs" },
-        { name: "Reduxjs" },
+        { name: "Redux Toolkit" },
         { name: "Tailwindcss" },
         { name: "Martial UI" },
       ],
       image: project2,
-      live: "",
+
       github: "https://github.com/Daljeet-gif/chat_App",
+    },
+    {
+      num: "03",
+      category: "React Native",
+      title: "Notes App",
+      description:
+        "The React Native Notes App is a mobile app built with Expo, allowing users to create, read, update, and delete notes seamlessly. It covers all fundamental React Native concepts, ensuring a solid learning experience. Context API is used for efficient state management, while Appwrite handles authentication, database, and storage. The app features a modern UI, smooth navigation, and offline support, making it a practical and user-friendly notes manage",
+      stack: [
+        { name: "React native" },
+        { name: "appwrite" },
+        { name: "context Stat menagement" },
+        { name: "Tailwindcss" },
+       
+      ],
+      image: project4,
+      live: "application-f0f2c180-d429-47ee-a59e-0dce702495af.aab",
+      github: "https://github.com/Daljeet-gif/reactnative",
     },
   ];
 
@@ -98,9 +115,9 @@ export const ProjectCard = ({
             href={live}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-green-500 hover:underline "
+            className="text-green-500 hover:underline cursor-pointer "
           >
-            Live Demo
+            {live ? "Live " : "Not Live yet"}
           </a>
           <a
             href={github}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import css from "../public/css.jpg";
+import css from "../../public/css.jpg";
 import html from "../../public/html.png";
 import mongodb from "../../public/MonGO.png";
 import javascript from "../../public/javascript.png";

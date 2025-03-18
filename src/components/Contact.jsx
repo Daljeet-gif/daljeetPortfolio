@@ -48,7 +48,7 @@ const Contact = () => {
           >
             <div className="flex flex-col">
               <label
-                for="first-name"
+                htmlFor="first-name"
                 className="mb-2 dark:text-gray-200  flex items-start"
               >
                 First Name
@@ -64,7 +64,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col">
               <label
-                for="lastname"
+                htmlFor="lastname"
                 className="mb-2 dark:text-gray-300   flex items-start"
               >
                 Last Name
@@ -96,7 +96,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col col-span-1 md:col-span-2">
               <label
-                for="message"
+                htmlFor="message"
                 className="mb-2 dark:text-gray-300 flex items-start"
               >
                 Message
@@ -133,9 +133,9 @@ const Contact = () => {
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M3 10l4-4m0 0l4 4m-4-4v12m7 0h4a2 2 0 002-2v-4a2 2 0 00-2-2h-4m-6 0h6"
                 />
               </svg>

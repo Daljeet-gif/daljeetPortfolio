@@ -1,13 +1,11 @@
 import React from "react";
-import { FaFacebookSquare } from "react-icons/fa";
+
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaDownload } from "react-icons/fa6";
+
 import { FaWhatsapp } from "react-icons/fa6";
-import { SiExpress } from "react-icons/si";
-import { IoLogoReact } from "react-icons/io5";
-import { FaJsSquare } from "react-icons/fa";
+
 import img from "../../public/img.jpg";
 
 import CountUp from "react-countup";
@@ -20,7 +18,7 @@ const Home = () => {
       text: "Months of expreience",
     },
     {
-      num: 3,
+      num: 4,
       text: "Projects completes",
     },
     {
@@ -60,7 +58,7 @@ const Home = () => {
           <div class="flex items-center justify-evenly md:justify-start gap-4">
             <a
               href="daljeetresume.pdf"
-                download="Resume.pdf"
+                download="daljeetresume.pdf"
               class=" border border-green-500  hover:scale-95  dark:text-green-400 px-6 py-2 rounded-2xl font-medium hover:bg-green-600 transition duration-300"
             >
               Download CV
