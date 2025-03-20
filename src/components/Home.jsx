@@ -51,9 +51,7 @@ const Home = () => {
             ></ReactTyped>
           </motion.h1>
           <p class="text-lg dark:text-gray-300">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ea
-            illum praesentium natus provident enim repellat voluptatem saepe
-            ratione cum, veniam eius?
+          I am a MERN Stack Developer with hands-on experience in MongoDB, Express.js, React, and Node.js. I have built projects like E-commerce, Chat App, and Notes App, implementing Redux Toolkit, JWT authentication, and API integration. I am seeking a fresher job or internship opportunity to apply my skills, contribute to real-world projects, and grow as a developer
           </p>
           <div class="flex items-center justify-evenly md:justify-start gap-4">
             <a
