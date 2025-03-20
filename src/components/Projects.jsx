@@ -21,7 +21,7 @@ const Projects = () => {
         { name: "Redux Toolkit" },
       ],
       image: project3,
-      live: "https://rabbit-925.vercel.app/",
+      live: "https://rabbit-cdmz.vercel.app/",
       github: "https://github.com/Daljeet-gif/rabbit",
     },
     {
